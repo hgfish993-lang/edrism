@@ -51,3 +51,9 @@ pre, code {
   direction: ltr;
   text-align: left;
 }
+
+/* حذف منو */
+.site-nav { display: none; }
+
+/* حذف subscribe via RSS */
+.rss-subscribe { display: none; }
