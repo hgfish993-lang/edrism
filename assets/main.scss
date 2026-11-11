@@ -1,0 +1,51 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+@import "minima";
+
+/* راست‌چین کلی */
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Vazirmatn', Tahoma, sans-serif;
+}
+
+/* نوار بالا: عنوان سمت راست، منو سمت چپ */
+.site-title { float: right; }
+.site-nav   { float: left; }
+
+.site-nav .page-link:not(:last-child) {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* منوی موبایل */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    right: auto;
+    left: 15px;
+    text-align: right;
+  }
+  .site-nav .page-link {
+    margin-left: 0;
+  }
+}
+
+/* لیست‌ها و نقل‌قول‌ها */
+ul, ol {
+  margin-left: 0;
+  margin-right: 30px;
+}
+blockquote {
+  border-left: none;
+  border-right: 4px solid #e8e8e8;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+/* کدها چپ‌چین بمانند */
+pre, code {
+  direction: ltr;
+  text-align: left;
+}
