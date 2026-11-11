@@ -3,7 +3,5 @@ theme: minima
 lang: fa
 google_analytics: G-QNEZGPG6RR
 permalink: /:title/
-paginate: 10
-paginate_path: "/page:num/"
-plugins:
-  - jekyll-paginate
+show_excerpts: true
+excerpt_separator: "<!--more-->"
