@@ -9,6 +9,8 @@ body {
   direction: rtl;
   text-align: right;
   font-family: 'Vazirmatn', Tahoma, sans-serif;
+  min-height: 100vh;   /* برای مرورگرهای قدیمی */
+  min-height: 100dvh;
 }
 
 /* نوار بالا: عنوان سمت راست، منو سمت چپ */
